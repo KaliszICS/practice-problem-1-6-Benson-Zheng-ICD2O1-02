@@ -12,7 +12,9 @@ from math import floor
 def q1():
   num1 = input("Input a number: ")
   num2 = input("Input a number: ")
-  print (num1 + num2)
+  int1 = int(num1)
+  int2 = int(num2)
+  print (int1 + int2)
 
 # From input recieve two integers.  Output the quotient rounded down.
 
@@ -31,9 +33,10 @@ def q3():
 # Output their result multiplied together.  Then round down to the nearest whole number
 
 def q4():
-  num1 = input("Input a number: ")
-  num2 = input("Input a number: ")
-  print(floor(int(num1)) * (int(num2)))
+  number1 = float(input("Input a number: "))
+  number2 = float(input("Input another number: "))
+
+  print (int(number1 * number2))
   
 
 # q1()
